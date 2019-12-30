@@ -20,7 +20,7 @@ See the "How to get started with the Twitter API" section on this page: https://
 
 -Use this GET Request endpoint to ping the service(as a healthcheck): http://localhost:8080/test
 
--Use a POST request to check if a tweet is real or fake, endpoint: http://localhost:8080/verify, add this JSON payload to the body of the POSt request. The Service should return a string with "real" or "fake" to determine whether the tweet is real or not.
+-Use a POST request to check if a tweet is real or fake, endpoint: http://localhost:8080/verify, add this JSON payload to the body of the POST request. The Service should return a string with "real" or "fake" to determine whether the tweet is real or not.
 
 {
 "handle":"@similola",
