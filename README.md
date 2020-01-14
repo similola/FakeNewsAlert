@@ -12,7 +12,7 @@ alt="Demo Video at One Week Hackathon 2018" width="240" height="180" border="10"
 " target="_blank"><img src="http://img.youtube.com/vi/2JUmncbo2xU/0.jpg" 
 alt="One Week Hackathon 2018 Vlog" width="240" height="180" border="10" /></a>
 
-# Steps to get started:
+## Steps to get started:
 1. Import the pom.xml file into IntelliJ/Visual Studio Code or an IDE of your choice
 2. Run the maven clean and install task.(via your IDE or command line)
    Command line instructions 
