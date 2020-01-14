@@ -29,12 +29,13 @@ See the "How to get started with the Twitter API" section on this page: https://
 
 5. Test the service locally using Postman
 
-*Use this GET Request endpoint to ping the service(as a healthcheck): http://localhost:8080/test
+* Use this GET Request endpoint to ping the service(as a healthcheck): http://localhost:8080/test
 
-*Use a POST request to check if a tweet is real or fake, endpoint: http://localhost:8080/verify, add this JSON payload to the body of the POST request. The Service should return a string with "real" or "fake" to determine whether the tweet is real or not.
-
+* Use a POST request to check if a tweet is real or fake, endpoint: http://localhost:8080/verify, add this JSON payload to the body of the POST request. The Service should return a string with "real" or "fake" to determine whether the tweet is real or not.
+```javascript
 {
 "handle":"@similola",
 "tweet":"This is a test tweet, playing around with the Twitter API (again). As you were :)"
 }
+```
 
